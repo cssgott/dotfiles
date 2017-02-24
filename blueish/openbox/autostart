@@ -1,0 +1,6 @@
+nitrogen --restore &
+volumeicon &
+compton --config ~/.config/compton.conf -b &
+tint2 &
+plank &
+lxpolkit &
