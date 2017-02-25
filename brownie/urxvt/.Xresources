@@ -1,0 +1,55 @@
+! urxvt
+URxvt*buffered: true
+URxvt*cursorBlink: true
+URxvt*underlineColor: #fff
+URxvt*font:  xft:inconsolata:size=10:antialias=true
+URxvt*depth: 32
+URxvt*borderless: 1
+URxvt*scrollBar: false
+URxvt*loginShell: true
+Urxvt*secondaryScroll:  true    # Enable Shift-PageUp/Down in screen
+URxvt*saveLines: 5000
+URxvt*termName: rxvt-unicode
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1
+
+#URxvt.transparent:   true
+#URxvt.shading:       20
+
+! special
+*foreground:   #fff
+*background:   #978382
+*cursorColor:  #fff
+
+! black
+*color0:       #1c2023
+*color8:       #747c84
+
+! red
+*color1:       #c7ae95
+*color9:       #c7ae95
+
+! green
+*color2:       #95c7ae
+*color10:      #95c7ae
+
+! yellow
+*color3:       #aec795
+*color11:      #aec795
+
+! blue
+*color4:       #ae95c7
+*color12:      #ae95c7
+
+! magenta
+*color5:       #c795ae
+*color13:      #c795ae
+
+! cyan
+*color6:       #95aec7
+*color14:      #95aec7
+
+! white
+*color7:       #c7ccd1
+*color15:      #f3f4f5
