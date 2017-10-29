@@ -1,0 +1,64 @@
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #fba696, #fba696, #fba696
+rofi.color-normal: #fba696, #282828, #fba696, #282828, #fba696
+rofi.color-active: #282828, #fbb7ab, #fbb7ab, #9F4432, #9F4432
+rofi.color-urgent: #282828, #ff1844, #fbb7ab, #fbb7ab, #ff1844
+
+! urxvt
+URxvt*buffered: true
+URxvt*cursorBlink: true
+URxvt*underlineColor: #fff
+URxvt*font:  xft:Overpass Mono:size=12:antialias=true
+URxvt*depth: 32
+URxvt*borderless: 1
+URxvt*scrollBar: false
+URxvt*loginShell: true
+Urxvt*secondaryScroll:  true    # Enable Shift-PageUp/Down in screen
+URxvt*saveLines: 5000
+URxvt*termName: rxvt-unicode
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: opera
+URxvt.matcher.button: 1
+
+!URxvt.transparent:   true
+URxvt.shading:       60
+
+! special
+*.foreground:   #ffffff
+*.background:   #000000
+*.cursorColor:  #ffffff
+
+! black
+*.color0:       #393939
+*.color8:       #474747
+
+! red
+*.color1:       #ff9f95
+*.color9:       #ff8d80
+
+! green
+*.color2:       #e2ffc7
+*.color10:      #dbffb3
+
+! yellow
+*.color3:       #ffffb9
+*.color11:      #ffbe64
+
+! blue
+*.color4:       #a8ceea
+*.color12:      #7eb6ff
+
+! magenta
+*.color5:       #e2b5cc
+*.color13:      #e296ff
+
+! cyan
+*.color6:       #c2efff
+*.color14:      #9ce9ff
+
+! white
+*.color7:       #dddddd
+*.color15:      #dddddd

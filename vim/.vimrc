@@ -32,7 +32,7 @@ Plugin 'exitface/synthwave.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdtree'
-" Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -71,7 +71,8 @@ set backspace=indent,eol,start
 
 " Switch syntax highlighting on
 syntax on
-
+"colorscheme SerialExperimentsLain
+colorscheme astroboy
 " 4 Spaces als Einrueckung
 set tabstop=4
 set shiftwidth=4
