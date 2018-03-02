@@ -62,10 +62,9 @@ font-2 = "Ubuntu Mono:pixelsize=4;1"
 modules-left = date
 modules-center = workspaces
 modules-right = xbacklight volume wlan eth battery
-
-;tray-position = right
-;tray-padding = 0
-;tray-transparent = true
+tray-position = left
+tray-padding = 0
+tray-transparent = false
 ;tray-background = #0063ff
 
 ;wm-restack = bspwm
