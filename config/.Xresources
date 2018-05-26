@@ -1,0 +1,71 @@
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #2E3440, #ECEFF4, #ECEFF4
+rofi.color-normal: #2E3440, #8FBCBB, #2E3440, #BF616A, #ECEFF4
+rofi.color-active: #2E3440, #ECEFF4, #8FBCBB, #8FBCBB, #ECEFF4
+rofi.color-urgent: #2E3440, #ff1844, #fbb7ab, #fbb7ab, #ff1844
+
+!rofi.color-enabled: true
+!rofi.color-window: #312e39, #bf9c86, #bf9c86
+!rofi.color-normal: #312e39, #2e997b, #312e39, #bf9c86, #312e39
+!rofi.color-active: #312e39, #ffffff, #2e997b, #2e997b, #ffffff
+!rofi.color-urgent: #312e39, #943b4e, #80425d, #80425d, #943b4e
+
+
+! urxvt
+URxvt*buffered: true
+URxvt*cursorBlink: true
+URxvt*underlineColor: #fff
+URxvt*font:  xft:PT Mono:size=16:antialias=true
+URxvt*depth: 32
+URxvt*borderless: 1
+URxvt*scrollBar: false
+URxvt*loginShell: true
+Urxvt*secondaryScroll:  true    # Enable Shift-PageUp/Down in screen
+URxvt*saveLines: 5000
+URxvt*termName: rxvt-unicode
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1
+
+!URxvt.transparent:   true
+URxvt.shading:       60
+
+! special
+*.foreground:   #aed6ef
+*.background:   #363b3f
+*.cursorColor:  #aed6ef
+
+! black
+*.color0:       #393939
+*.color8:       #474747
+
+! red
+*.color1:       #ff9f95
+*.color9:       #ff8d80
+
+! green
+*.color2:       #e2ffc7
+*.color10:      #dbffb3
+
+! yellow
+*.color3:       #ffffb9
+*.color11:      #ffbe64
+
+! blue
+*.color4:       #a8ceea
+*.color12:      #7eb6ff
+
+! magenta
+*.color5:       #e2b5cc
+*.color13:      #e296ff
+
+! cyan
+*.color6:       #c2efff
+*.color14:      #9ce9ff
+
+! white
+*.color7:       #dddddd
+*.color15:      #dddddd

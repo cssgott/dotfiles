@@ -1,0 +1,30 @@
+# hintergrundbild mit nitrogen wiederherstellen
+nitrogen --restore &
+
+# lautstaerke regelung
+volumeicon &
+
+# compton fuer transparenz
+compton --config ~/.config/compton.conf -b &
+
+# tin2 bar
+#tint2 &
+
+#polybar
+$HOME/.config/polybar/startup.sh
+
+# networkmanager applet
+nm-applet &
+
+#kalu &
+
+# beep ausschalten
+xset -b &
+
+lxqt-powermanagement &
+xss-lock -- i3lock -n --fuzzy &
+
+# power manager
+#xfce4-power-manager &
+
+
